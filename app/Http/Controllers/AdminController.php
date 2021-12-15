@@ -13,6 +13,12 @@ class AdminController extends Controller
       return view('admin.patients',compact("data"));
     }
 
+    public function delete_patient($id)
+    {
+        $data=User::find($id);
+        $data->delete();
+      return redirect()->back();
+    }
     public function test()
     {
       return view('admin.bodytest');

@@ -44,6 +44,7 @@
                                   <th> Payment Mode </th>
                                   <th> Start Date </th>
                                   <th> Action </th>
+                                  <th> Delete </th>
                                 </tr>
                               </thead>
                               <tbody>
@@ -69,6 +70,15 @@
                                     <td>
                                       <div class="badge badge-outline-success">Approved</div>
                                     </td>
+                                    <td>
+                                        <div class="badge badge-outline-danger">
+                                            @if ($data->user_type=="0")
+                                            <a href="{{url('/deletepatient',$data->id)}}">Delete</a>   
+                                            @else
+                                             <p>Not allowed</p>
+                                            @endif
+                                        </div>
+                                      </td>
                                   </tr>
 
                                   @endforeach

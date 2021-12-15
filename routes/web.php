@@ -23,6 +23,7 @@ Route::get('/redirects',[HomeController::class,"redirects"]);
 
 
 Route::get('/patients',[AdminController::class,"patients"]);
+Route::get('/deletepatient/{id}',[AdminController::class,"delete_patient"]);
 
 Route::get('/test',[AdminController::class,"test"]);
 
