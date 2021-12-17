@@ -12,18 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <title>Chain App Dev - App Landing Page HTML5 Template</title>
+    <title>MyDoctor | Ltd</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!--
 
-TemplateMo 570 Chain App Dev
-
-https://templatemo.com/tm-570-chain-app-dev
-
--->
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -64,8 +58,8 @@ https://templatemo.com/tm-570-chain-app-dev
               <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
               <li class="scroll-to-section"><a href="#services">Services</a></li>
               <li class="scroll-to-section"><a href="#about">About</a></li>
-              <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
-              <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li>
+              <li class="scroll-to-section"></li>
+              <li class="scroll-to-section"></li>
               @if (Route::has('login'))
               
                   @auth
@@ -189,15 +183,18 @@ https://templatemo.com/tm-570-chain-app-dev
               <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h2>Get The Latest App From App Stores</h2>
-                    <p>Chain App Dev is an app landing page HTML5 template based on Bootstrap v5.1.3 CSS layout provided by TemplateMo, a great website to download free CSS templates.</p>
+                    <h2 style="color: white">Your doctor back home. </h2>
+                    <p style="color: white">Find, connect, chat with your doctor, take appointments 
+                      according to your schedule, helps you keep your files, prescriptions and more...
+                      you can also take online reviews.
+                    </p>
                   </div>
                   <div class="col-lg-12">
                     <div class="white-button first-button scroll-to-section">
-                      <a href="#contact">Free Quote <i class="fab fa-apple"></i></a>
+                      <a href="#contact">Get Started</a>
                     </div>
                     <div class="white-button scroll-to-section">
-                      <a href="#contact">Free Quote <i class="fab fa-google-play"></i></a>
+                      <a href="#contact">Contact us</a>
                     </div>
                   </div>
                 </div>
@@ -205,7 +202,7 @@ https://templatemo.com/tm-570-chain-app-dev
             </div>
             <div class="col-lg-6">
               <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/slider-dec.png" alt="">
+                <img src="assets/images/doctor.png" alt="">
               </div>
             </div>
           </div>
@@ -221,7 +218,7 @@ https://templatemo.com/tm-570-chain-app-dev
           <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
             <h4>Amazing <em>Services &amp; Features</em> for you</h4>
             <img src="assets/images/heading-line-dec.png" alt="">
-            <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more information.</p>
+            <p>If you need a doctor, don't look anywhere else. <a rel="nofollow" href="#" target="_blank">Register</a> and contact your doctor,   <a href="#" target="_parent">Contact us </a> for more informations.</p>
           </div>
         </div>
       </div>
@@ -230,39 +227,39 @@ https://templatemo.com/tm-570-chain-app-dev
       <div class="row">
         <div class="col-lg-3">
           <div class="service-item first-service">
-            <div class="icon"></div>
-            <h4>App Maintenance</h4>
-            <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
+            <div class="pb-4"><i class="fas fa-user fa-3x" style="color: rgb(90, 158, 247)"></i></div>
+            <h4>Free account</h4>
+            <p>Create your account for free and it will stay free for life.</p>
             <div class="text-button">
               <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item second-service">
-            <div class="icon"></div>
-            <h4>Rocket Speed of App</h4>
-            <p>You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this layout.</p>
+          <div class="service-item first-service">
+            <div class="pb-4"><i class="fas fa-search fa-3x" style="color: rgb(90, 158, 247)"></i></div>
+            <h4>Look out for a doc</h4>
+            <p>Search your area for a doctor by name or speciality.</p>
             <div class="text-button">
               <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item third-service">
-            <div class="icon"></div>
-            <h4>Multi Workflow Idea</h4>
-            <p>If this template is beneficial for your work, please support us <a rel="nofollow" href="https://paypal.me/templatemo" target="_blank">a little via PayPal</a>. Thank you.</p>
+          <div class="service-item first-service">
+            <div class="pb-4"><i class="far fa-calendar-check fa-3x" style="color: rgb(90, 158, 247)"></i></div>
+            <h4>Take an appointment</h4>
+            <p>Take an appointment according to your schedule.</p>
             <div class="text-button">
               <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="service-item fourth-service">
-            <div class="icon"></div>
-            <h4>24/7 Help &amp; Support</h4>
-            <p>Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and fashion axe.</p>
+          <div class="service-item first-service">
+            <div class="pb-4"><i  class="fas fa-headset fa-3x" style="color: rgb(90, 158, 247)"></i></div>
+            <h4>Chat with your doctor</h4>
+            <p>get a check from home and download your prescriptions.</p>
             <div class="text-button">
               <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
             </div>
@@ -279,7 +276,9 @@ https://templatemo.com/tm-570-chain-app-dev
           <div class="section-heading">
             <h4>About <em>What We Do</em> &amp; Who We Are</h4>
             <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+            <p>We are a company that provides this social web service, with the most advanced security, to assure 
+              a patient/doctor confidentiality.
+            </p>
           </div>
           <div class="row">
             <div class="col-lg-6">
@@ -569,79 +568,7 @@ https://templatemo.com/tm-570-chain-app-dev
     </div>
   </div>
 
-  <div id="pricing" class="pricing-tables">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2">
-          <div class="section-heading">
-            <h4>We Have The Best Pre-Order <em>Prices</em> You Can Get</h4>
-            <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-item-regular">
-            <span class="price">$12</span>
-            <h4>Standard Plan App</h4>
-            <div class="icon">
-              <img src="assets/images/pricing-table-01.png" alt="">
-            </div>
-            <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>20 TB of Storage</li>
-              <li class="non-function">Life-time Support</li>
-              <li class="non-function">Premium Add-Ons</li>
-              <li class="non-function">Fastest Network</li>
-              <li class="non-function">More Options</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">Purchase This Plan Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-item-pro">
-            <span class="price">$25</span>
-            <h4>Business Plan App</h4>
-            <div class="icon">
-              <img src="assets/images/pricing-table-01.png" alt="">
-            </div>
-            <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>50 TB of Storage</li>
-              <li>Life-time Support</li>
-              <li>Premium Add-Ons</li>
-              <li class="non-function">Fastest Network</li>
-              <li class="non-function">More Options</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">Purchase This Plan Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="pricing-item-regular">
-            <span class="price">$66</span>
-            <h4>Premium Plan App</h4>
-            <div class="icon">
-              <img src="assets/images/pricing-table-01.png" alt="">
-            </div>
-            <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>120 TB of Storage</li>
-              <li>Life-time Support</li>
-              <li>Premium Add-Ons</li>
-              <li>Fastest Network</li>
-              <li>More Options</li>
-            </ul>
-            <div class="border-button">
-              <a href="#">Purchase This Plan Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> 
+  
 
   <footer id="newsletter">
     <div class="container">
