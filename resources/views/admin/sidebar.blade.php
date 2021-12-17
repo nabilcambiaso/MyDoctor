@@ -1,7 +1,13 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
     <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-      <a class="sidebar-brand brand-logo" href="index.html"><img src="admin/assets/images/logo.svg" alt="logo" /></a>
-      <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="admin/assets/images/logo-mini.svg" alt="logo" /></a>
+      <a class="brand-logo" href="index.html">
+        <img  style="width: 100px" src="assets/images/white-logo.png" alt="logo"></a>
+
+    </div>
+    <div class="sidebar-brand sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+      
+      <a class=" brand-logo-mini" href="index.html">
+        <img style="width: 130px" src="assets/images/white-logo.png" alt="logo"></a></a>
     </div>
     <ul class="nav">
       <li class="nav-item nav-category">
