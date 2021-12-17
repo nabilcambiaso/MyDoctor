@@ -49,8 +49,8 @@
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo">
-              <img src="assets/images/logo.png" alt="Chain App Dev">
+            <a href="index.html">
+              <img style="width:140px" src="assets/images/logo.png" alt="mydoctor">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
@@ -284,31 +284,26 @@
             <div class="col-lg-6">
               <div class="box-item">
                 <h4><a href="#">Maintance Problems</a></h4>
-                <p>Lorem Ipsum Text</p>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="box-item">
                 <h4><a href="#">24/7 Support &amp; Help</a></h4>
-                <p>Lorem Ipsum Text</p>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="box-item">
                 <h4><a href="#">Fixing Issues About</a></h4>
-                <p>Lorem Ipsum Text</p>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="box-item">
                 <h4><a href="#">Co. Development</a></h4>
-                <p>Lorem Ipsum Text</p>
               </div>
             </div>
             <div class="col-lg-12">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et dolore adipiscing  magna.</p>
               <div class="gradient-button">
-                <a href="#">Start 14-Day Free Trial</a>
+                <a href="#">Get Started</a>
               </div>
               <span>*No Credit Card Required</span>
             </div>
@@ -330,7 +325,6 @@
           <div class="section-heading">
             <h4>Check What <em>The Clients Say</em> About Our App Dev</h4>
             <img src="assets/images/heading-line-dec.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
           </div>
         </div>
         <div class="col-lg-12">
@@ -343,11 +337,11 @@
                       <div class="thumb">
                         <div class="row">
                           <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>David Martino Co</h4>
-                            <span class="date">30 November 2021</span>
+                            <h4>Said gouzal</h4>
+                            <span class="date">10 December 2021</span>
                           </div>
                           <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">Financial Apps</span>
+                            <span class="category">Nice app</span>
                           </div>
                           <div class="col-lg-4 col-sm-4 col-12">
                               <i class="fa fa-star"></i>
@@ -364,11 +358,11 @@
                       <div class="thumb">
                         <div class="row">
                           <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>Jake Harris Nyo</h4>
-                            <span class="date">29 November 2021</span>
+                            <h4>Nouhaila Jellouli</h4>
+                            <span class="date">10 December 2021</span>
                           </div>
                           <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">Digital Business</span>
+                            <span class="category">Very helpfull</span>
                           </div>
                           <div class="col-lg-4 col-sm-4 col-12">
                               <i class="fa fa-star"></i>
@@ -385,11 +379,11 @@
                       <div class="thumb">
                         <div class="row">
                           <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>May Catherina</h4>
-                            <span class="date">27 November 2021</span>
+                            <h4>Nabil Cambiaso</h4>
+                            <span class="date">12 December 2021</span>
                           </div>
                           <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">Business &amp; Economics</span>
+                            <span class="category">Saved &amp; my life</span>
                           </div>
                           <div class="col-lg-4 col-sm-4 col-12">
                               <i class="fa fa-star"></i>
@@ -397,7 +391,7 @@
                               <i class="fa fa-star"></i>
                               <i class="fa fa-star"></i>
                               <i class="fa fa-star"></i>
-                              <span class="rating">4.7</span>
+                              <span class="rating">5.0</span>
                           </div>
                         </div>
                       </div>
@@ -407,10 +401,10 @@
                         <div class="row">
                           <div class="col-lg-4 col-sm-4 col-12">
                             <h4>Random User</h4>
-                            <span class="date">24 November 2021</span>
+                            <span class="date">17 December 2021</span>
                           </div>
                           <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">New App Ecosystem</span>
+                            <span class="category">Thanks very much</span>
                           </div>
                           <div class="col-lg-4 col-sm-4 col-12">
                               <i class="fa fa-star"></i>
@@ -423,27 +417,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="last-thumb">
-                      <div class="thumb">
-                        <div class="row">
-                          <div class="col-lg-4 col-sm-4 col-12">
-                            <h4>Mark Amber Do</h4>
-                            <span class="date">21 November 2021</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                            <span class="category">Web Development</span>
-                          </div>
-                          <div class="col-lg-4 col-sm-4 col-12">
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <i class="fa fa-star"></i>
-                              <span class="rating">4.3</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                  
                   </div>
                 </div> 
                 <div class="col-lg-5">
@@ -455,16 +429,9 @@
                             <div class="col-lg-12">
                               <div class="client-content">
                                 <img src="assets/images/quote.png" alt="">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adpiscing elit, sed do eismod tempor idunte ut labore et dolore magna aliqua darwin kengan
-                                  lorem ipsum dolor sit amet, consectetur picing elit massive big blasta.”</p>
+                                <p>“Observation, Reason, Human Understanding, Courage; these make the physician." “Wear the white coat with dignity and pride—it is an honor and privilege to get to serve the public as a physician.” “Always remember the privilege it is to be a physician.”</p>
                               </div>
-                              <div class="down-content">
-                                <img src="assets/images/client-image.jpg" alt="">
-                                <div class="right-content">
-                                  <h4>David Martino</h4>
-                                  <span>CEO of David Company</span>
-                                </div>
-                              </div>
+                             
                             </div>
                           </div>
                         </div>
@@ -596,61 +563,30 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-6">
           <div class="footer-widget">
             <h4>Contact Us</h4>
-            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
-            <p><a href="#">010-020-0340</a></p>
-            <p><a href="#">info@company.co</a></p>
+            <p>Ouarzazate district 11 hay elwahda</p>
+            <p><a href="#">06-020-0340</a></p>
+            <p><a href="#">info@mycotor.com</a></p>
           </div>
         </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>About Us</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="footer-widget">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Free Apps</a></li>
-              <li><a href="#">App Engine</a></li>
-              <li><a href="#">Programming</a></li>
-              <li><a href="#">Development</a></li>
-              <li><a href="#">App News</a></li>
-            </ul>
-            <ul>
-              <li><a href="#">App Dev Team</a></li>
-              <li><a href="#">Digital Web</a></li>
-              <li><a href="#">Normal Apps</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-3">
+      
+      
+        <div class="col-lg-6">
           <div class="footer-widget">
             <h4>About Our Company</h4>
-            <div class="logo">
-              <img src="assets/images/white-logo.png" alt="">
+            <div style="width: 170px">
+              <img  src="assets/images/white-logo.png" alt="">
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+            <p>We are a company that provides this social web service, with the most advanced security, to assure 
+              a patient/doctor confidentiality.</p>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="copyright-text">
-            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved. 
-          <br>Design: <a href="https://templatemo.com/" target="_blank" title="css templates">TemplateMo</a></p>
+            <p>Copyright © 2022 Mydoctor ltd. All Rights Reserved. 
+          <br>Design: <a href="#top" target="_blank" title="css templates">SIR laravel</a></p>
           </div>
         </div>
       </div>
