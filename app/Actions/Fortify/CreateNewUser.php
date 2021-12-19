@@ -3,6 +3,7 @@
 namespace App\Actions\Fortify;
 
 use App\Models\User;
+use App\Models\user_informations;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Laravel\Fortify\Contracts\CreatesNewUsers;
@@ -27,10 +28,25 @@ class CreateNewUser implements CreatesNewUsers
             'terms' => Jetstream::hasTermsAndPrivacyPolicyFeature() ? ['required', 'accepted'] : '',
         ])->validate();
 
-        return User::create([
+         User::create([
             'name' => $input['name'],
             'email' => $input['email'],
+            'user_type' => $input['user_type'],
             'password' => Hash::make($input['password']),
         ]);
+
+        $data=User::where('email', '=',  $input['email'])->firstOrFail();
+         user_informations::create([
+        'user_id' => $data->id,
+        'first_name' => $input['name'],
+        'last_name' => $input['last_name'],
+        'phone_number' => $input['phone_number'],
+        'dbo' => $input['dob'],
+        'speciality_id' => $input['doc_speciality'],
+        'adress' => $input['address'],
+        ]);
+
+        return $data;
+        
     }
 }

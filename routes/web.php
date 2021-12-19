@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\PatientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +28,7 @@ Route::get('/deletepatient/{id}',[AdminController::class,"delete_patient"]);
 
 Route::get('/test',[AdminController::class,"test"]);
 
-
+// patient
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
